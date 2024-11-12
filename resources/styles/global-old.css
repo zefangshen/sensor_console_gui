@@ -1,0 +1,37 @@
+MainWindow {
+  background-color: "lightblue";
+}
+
+QLineEdit:focus {
+  background-color: "grey";
+}
+
+QPushButton {
+  background-color: blue;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+QPushButton:hover {
+  background-color: red;
+}
+
+QPushButton:disabled {
+  background-color: grey;
+}
+
+.heading {
+  font-size: 18px;
+}
+
+.normal {
+  color: yellow;
+}
+
+.tab-button {
+  font-size: 14px;
+  border: none;
+}
+.tab-button:disabled {
+  font-weight: bold;
+}

@@ -1,0 +1,43 @@
+QHBoxLayout {
+  margin: 0;
+  gap: 0;
+  align-items: center;
+}
+
+.tab-button {
+  font-size: 14px;
+  border: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-weight: bold;
+  color: slategrey;
+}
+
+.tab-button:disabled {
+  color: black;
+  text-decoration: underline;
+}
+
+.tab-button:hover {
+  color: black;
+}
+
+.action-button {
+  height: 40px;
+  width: 85px;
+  font-size: 12px;
+  border: black;
+  border-radius: 5px;
+}
+
+.action-button:active {
+  background-color: burlywood;
+}
+
+.action-button:pressed {
+  background-color: grey;
+}
+
+.sensor-status-text {
+  margin-left: 5px;
+}
